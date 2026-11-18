@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("🎈 Mayana Twala Hiking club")
-st.header("Explore Nature")
+st.header("Explore Nature With Us")
 st.subheader("weekend is for Hiking")
 st.write(
   "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
