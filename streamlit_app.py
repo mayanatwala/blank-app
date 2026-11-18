@@ -7,4 +7,3 @@ st.write(
 st.image("IMG_0018.jpeg")
 st.image("IMG_9201.jpeg")
 st.video("IMG_9327.mov")
-st.sidebar()
