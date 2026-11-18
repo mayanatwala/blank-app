@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <img src="picture.jpg" alt="My Picture" width="400">
+
+</body>
+</html>
 import streamlit as st
 st.title("🎈 Mayana Twala Hiking club")
 st.write(
