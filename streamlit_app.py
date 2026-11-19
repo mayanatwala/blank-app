@@ -13,3 +13,15 @@ st.markdown("mayana"
     position: relative;
     text-align: center;
     color: white;
+import streamlit as st
+
+st.title("My Website")
+
+# Add CSS styling
+st.markdown("""
+<style>
+.image-container {
+    text-align: center;
+}
+</style>
+""", unsafe_allow_html=True)
