@@ -7,4 +7,4 @@ st.image("IMG_9335.jpeg")
 st.markdown("2km 5km 10km")
 st.image("IMG_9156.jpeg")
 st.code ("HELLO")
-name = st.text_input("mayana"
+name = st.text_input("mayana")
