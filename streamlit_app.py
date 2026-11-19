@@ -10,4 +10,21 @@ st.code ("for Booking")
 name = st.text_input("What is your Name")
 surname = st.text_input("what is your surname")
 address = st.text_input("home address")
-selected = option_menu(menu_title=None,options=["Home","About"],orientation="horizontal)                      
+ from streamlit_option_menu import option_menu
+
+selected = option_menu(
+    menu_title=None,
+    options=[
+        "Home",
+        "About",
+        "Hike Program",
+        "Newbies",
+        "Safety",
+        "FAQ",
+        "Membership",
+        "Contact"
+    ],
+    orientation="horizontal"
+)
+
+st.write("Selected:", selected)                 
