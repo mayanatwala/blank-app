@@ -10,7 +10,7 @@ st.code ("for Booking")
 name = st.text_input("What is your Name")
 surname = st.text_input("what is your surname")
 address = st.text_input("home address")
-selected = option_menu(
+selected = main_menu(
         menu_title="Main Menu",
         options=["Home", "About", "Services", "Contact"],
         icons=["house", "person", "gear", "envelope"],
