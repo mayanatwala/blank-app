@@ -10,7 +10,13 @@ st.code ("for Booking")
 name = st.text_input("What is your Name")
 surname = st.text_input("what is your surname")
 address = st.text_input("home address")
-selected = option_menu(
+import streamlit as st
+from streamlit_option_menu import option_menu
+
+st.set_page_config(page_title="My Website", layout="wide")
+
+with st.sidebar:
+    selected = option_menu(
         menu_title="Main Menu",
         options=["Home", "About", "Services", "Contact"],
         icons=["house", "person", "gear", "envelope"],
@@ -28,4 +34,4 @@ elif selected == "Services":
     st.title("Our Services")
 
 elif selected == "Contact":
-    st.title("Contact Us")              
+    st.title("Contact Us")
