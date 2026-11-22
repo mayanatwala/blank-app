@@ -10,22 +10,3 @@ st.code ("for Booking")
 name = st.text_input("What is your Name")
 surname = st.text_input("what is your surname")
 address = st.text_input("home address")
-selected = (
-        menu_title="Main Menu",
-        options=["Home", "About", "Services", "Contact"],
-        icons=["house", "person", "gear", "envelope"],
-        menu_icon="cast",
-        default_index=0
-    )
-
-if selected == "Home":
-    st.title("Welcome Home")
-
-elif selected == "About":
-    st.title("About Us")
-
-elif selected == "Services":
-    st.title("Our Services")
-
-elif selected == "Contact":
-    st.title("Contact Us")
